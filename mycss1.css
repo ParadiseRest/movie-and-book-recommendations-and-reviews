@@ -1,0 +1,87 @@
+body{
+    background: url('C:\xampp\htdocs\CW\Images\ mike.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.color-overlay{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: .7;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.brand{
+
+position: static;
+width: 359px;
+height: 44px;
+left: 10px;
+top: 10px;
+
+font-family: Montserrat;                
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.bgimage{
+position: static;
+width: 1920px;
+height: 1106px;
+left: 10px;
+top: 10px;
+opacity: .2;
+filter: alpha(opacity=50);
+background-color: rgba(0, 0, 0, 0.5);
+transition: all 1s;
+-webkit-transition: all 1s;
+
+background: url(books-g03ab3abdc_1920.jpg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.perfect-destin{
+color: rgb(255, 255, 255);
+opacity: 1;
+position: absolute;
+left: 10%;
+right: 10%;
+top: 30%;
+text-align: center;
+
+font-size: 500%;
+
+
+}
+
+.getStarted{
+    position: relative;
+    border-radius: 30px;
+    
+}
+
+.monsterat{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
